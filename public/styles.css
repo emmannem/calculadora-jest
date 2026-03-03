@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.calculadora {
+  background: #ffffff;
+  width: 350px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.calculadora h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.calculadora input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.calculadora input:focus {
+  outline: none;
+  border: 1px solid #4e73df;
+}
+
+/* Botones */
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.botones button {
+  width: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4e73df;
+  color: white;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    transform 0.1s;
+}
+
+.botones button:hover {
+  background-color: #2e59d9;
+}
+
+.botones button:active {
+  transform: scale(0.95);
+}
+
+/* Resultado */
+#resultado {
+  margin: 10px 0;
+  padding: 8px;
+  background: #f8f9fc;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  min-height: 30px;
+  color: #333;
+}
+
+/* Historial */
+.calculadora h3 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #444;
+}
+
+#historial {
+  list-style: none;
+  max-height: 120px;
+  overflow-y: auto;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+#historial li {
+  background: #f1f3f9;
+  padding: 6px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* Botón limpiar */
+.calculadora button:last-of-type {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #e74a3b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.calculadora button:last-of-type:hover {
+  background-color: #c0392b;
+}
+
+/* Scroll personalizado */
+#historial::-webkit-scrollbar {
+  width: 6px;
+}
+
+#historial::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}

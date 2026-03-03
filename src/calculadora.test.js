@@ -1,7 +1,7 @@
 const Calculadora = require("./calculadora");
 
 // Agrupalos pruebas relacionadas
-describe("Calculadora Avanzada", () => {
+describe("Calculadora", () => {
   let calc;
 
   beforeEach(() => {
@@ -9,21 +9,21 @@ describe("Calculadora Avanzada", () => {
   });
 
   // definimos una prueba individual
-  test("Suma correctamente", () => {
+  test("Debe sumar correctamente", () => {
     // indicamos lo que esperamos que ocurra
     expect(calc.sumar(2, 3)).toBe(5);
   });
 
-  test("No permite dividir entre cero", () => {
+  test("Debe mostar error al dividir entre cero", () => {
     expect(() => calc.dividir(4, 0)).toThrow("No se puede dividir entre cero");
   });
 
-  test("Guarda operaciones en historial", () => {
+  test("Debe guardar operaciones en historial", () => {
     calc.sumar(2, 2);
     expect(calc.obtenerHistorial().length).toBe(1);
   });
 
-  test("Limpia historial correctamente", () => {
+  test("Debe limpiar historial correctamente", () => {
     calc.sumar(1, 1);
     calc.limpiarHistorial();
     expect(calc.obtenerHistorial().length).toBe(0);

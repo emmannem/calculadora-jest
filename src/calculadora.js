@@ -24,7 +24,7 @@ class Calculadora {
     this.validarNumero(a);
     this.validarNumero(b);
 
-    const resultado = a + b;
+    const resultado = a + b + 1;
     this.guardarEnHistorial(`${a} + ${b}`, resultado);
     return resultado;
   }

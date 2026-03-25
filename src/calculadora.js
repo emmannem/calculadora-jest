@@ -24,7 +24,7 @@ class Calculadora {
     this.validarNumero(a);
     this.validarNumero(b);
 
-    const resultado = a + b + 1;
+    const resultado = a + b;
     this.guardarEnHistorial(`${a} + ${b}`, resultado);
     return resultado;
   }
@@ -70,11 +70,13 @@ class Calculadora {
 }
 
 // Compatibilidad navegador
+/* istanbul ignore next */
 if (typeof window !== "undefined") {
   window.Calculadora = Calculadora;
 }
 
 // Compatibilidad Jest
+/* istanbul ignore next */
 if (typeof module !== "undefined") {
   module.exports = Calculadora;
 }

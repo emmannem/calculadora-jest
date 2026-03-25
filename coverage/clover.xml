@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772520243360" clover="3.2.0">
-  <project timestamp="1772520243361" name="All files">
-    <metrics statements="32" coveredstatements="17" conditionals="10" coveredconditionals="6" methods="9" coveredmethods="7" elements="51" coveredelements="30" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
+<coverage generated="1773079192263" clover="3.2.0">
+  <project timestamp="1773079192264" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9" elements="43" coveredelements="43" complexity="0" loc="28" ncloc="28" packages="1" files="1" classes="1"/>
     <file name="calculadora.js" path="/home/josemmanuel/Escritorio/calculadora-jest/src/calculadora.js">
-      <metrics statements="32" coveredstatements="17" conditionals="10" coveredconditionals="6" methods="9" coveredmethods="7"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="10" count="8" type="cond" truecount="3" falsecount="1"/>
-      <line num="11" count="0" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="24" count="3" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="27" count="3" type="stmt"/>
-      <line num="28" count="3" type="stmt"/>
-      <line num="29" count="3" type="stmt"/>
-      <line num="33" count="0" type="stmt"/>
-      <line num="34" count="0" type="stmt"/>
-      <line num="36" count="0" type="stmt"/>
-      <line num="37" count="0" type="stmt"/>
-      <line num="38" count="0" type="stmt"/>
-      <line num="42" count="0" type="stmt"/>
-      <line num="43" count="0" type="stmt"/>
-      <line num="45" count="0" type="stmt"/>
-      <line num="46" count="0" type="stmt"/>
-      <line num="47" count="0" type="stmt"/>
-      <line num="51" count="1" type="stmt"/>
-      <line num="52" count="1" type="stmt"/>
-      <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+      <metrics statements="28" coveredstatements="28" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <line num="5" count="20" type="stmt"/>
+      <line num="10" count="24" type="cond" truecount="4" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="16" count="10" type="stmt"/>
+      <line num="24" count="8" type="stmt"/>
+      <line num="25" count="6" type="stmt"/>
+      <line num="27" count="6" type="stmt"/>
+      <line num="28" count="6" type="stmt"/>
+      <line num="29" count="6" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="52" count="3" type="stmt"/>
+      <line num="54" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="55" count="1" type="stmt"/>
-      <line num="58" count="0" type="stmt"/>
-      <line num="59" count="0" type="stmt"/>
-      <line num="60" count="0" type="stmt"/>
-      <line num="64" count="2" type="stmt"/>
+      <line num="58" count="2" type="stmt"/>
+      <line num="59" count="2" type="stmt"/>
+      <line num="60" count="2" type="stmt"/>
+      <line num="64" count="5" type="stmt"/>
       <line num="68" count="1" type="stmt"/>
-      <line num="73" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="74" count="0" type="stmt"/>
-      <line num="78" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="79" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
